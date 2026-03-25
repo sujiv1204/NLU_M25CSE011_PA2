@@ -56,18 +56,7 @@ python main.py --data data/TrainingNames.txt --samples 100
 
 ---
 
-## 2. Generating the Assignment Report properly 
-
-To create the analytical Overleaf-compatible LaTeX template strictly referencing the exact samples generated earlier, run:
-
-```bash
-python generate_report.py --data data/TrainingNames.txt
-```
-**Important constraint solved!** The reporting script extracts structural samples *directly* mapping from `outputs/generated_samples.txt` rather than rebuilding a new stochastic sequence independently. This solves any discrepancy guaranteeing the LaTeX rendering identically maps the evaluation!
-
----
-
-## 3. How to Train Models (Optional)
+## 2. How to Train Models
 
 If you modify the architectures in `models.py` or want to re-train the parameters dynamically against the dataset from scratch:
 
