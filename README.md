@@ -59,10 +59,10 @@ python main.py --data data/TrainingNames.txt --samples 100  # Generate and evalu
 │   ├── evaluate.py             # Metrics computation
 │   ├── main.py                 # Main evaluation script
 │   ├── dataset.py              # Data loading utilities
-│   └── outputs/                # Generated samples and reports
+│   └── outputs/                # Generated samples and visualizations
 │
 └── reports/                     # Final comprehensive report
-    └── final_report.tex        # Combined LaTeX report
+    └── report.pdf               # Combined report
 ```
 
 For detailed information on each problem, refer to the individual README files in `problem1/` and `problem2/` directories.
