@@ -77,8 +77,6 @@ AttentionRNN(
 2026-03-25 05:58:57,716 - INFO - Evaluation Metrics [Attention RNN] -> Novelty: 74.00% | Diversity: 100.00%
 2026-03-25 05:58:57,716 - INFO - Initializing visual charts
 2026-03-25 05:58:58,409 - INFO - Saved all visual evaluations securely into `outputs/`
-2026-03-25 05:58:58,409 - INFO - Generating Overleaf-compatible LaTeX report...
-2026-03-25 05:58:58,410 - INFO - Successfully produced highly structured human-written latex template -> outputs/report.tex
 2026-03-25 05:58:58,410 - INFO - Full script pipeline exited successfully. Consult the `/outputs` directory.
 2026-03-25 18:45:12,247 - INFO - Commencing Evaluation Execution Block (Generation & Computation)...
 2026-03-25 18:45:12,292 - INFO - Task-0: Loading and preparing data from dataset.
@@ -100,7 +98,6 @@ AttentionRNN(
 2026-03-25 18:45:13,899 - INFO - Initializing visual evaluation charts...
 2026-03-25 18:45:14,371 - INFO - Saved analytical evaluation visuals securely into `outputs/`
 2026-03-25 18:45:14,372 - INFO - System evaluation exited securely updating outputs/generated_samples.txt and /outputs/ plotting graphs.
-2026-03-25 18:47:43,156 - INFO - Building TeX Template Report Payload...
 2026-03-25 18:47:43,205 - INFO - Task-0: Loading and preparing data from dataset.
 2026-03-25 18:47:43,205 - INFO - Successfully loaded 1000 names.
 2026-03-25 18:47:43,205 - INFO - Data sample (first 5): ['Aarav', 'Aditya', 'Arjun', 'Arnav', 'Aryan']
@@ -110,7 +107,6 @@ AttentionRNN(
 2026-03-25 18:47:44,853 - INFO - Metrics [Vanilla RNN] -> Novelty: 93.00% | Diversity: 100.00%
 2026-03-25 18:47:44,853 - INFO - Metrics [BLSTM] -> Novelty: 92.00% | Diversity: 100.00%
 2026-03-25 18:47:44,853 - INFO - Metrics [Attention RNN] -> Novelty: 70.00% | Diversity: 100.00%
-2026-03-25 18:47:44,854 - INFO - Successfully produced highly structured latex template exactly mapping -> outputs/report.tex
 2026-03-25 18:54:59,474 - INFO - Commencing Evaluation Execution Block (Generation & Computation)...
 2026-03-25 18:54:59,539 - INFO - Task-0: Loading and preparing data from dataset.
 2026-03-25 18:54:59,540 - INFO - Successfully loaded 1000 names.
@@ -131,7 +127,6 @@ AttentionRNN(
 2026-03-25 18:55:00,792 - INFO - Initializing visual evaluation charts...
 2026-03-25 18:55:01,255 - INFO - Saved analytical evaluation visuals securely into `outputs/`
 2026-03-25 18:55:01,256 - INFO - System evaluation exited securely updating outputs/generated_samples.txt and /outputs/ plotting graphs.
-2026-03-25 18:55:37,354 - INFO - Building TeX Template Report Payload...
 2026-03-25 18:55:37,354 - INFO - Task-0: Loading and preparing data from dataset.
 2026-03-25 18:55:37,354 - INFO - Successfully loaded 1000 names.
 2026-03-25 18:55:37,354 - INFO - Data sample (first 5): ['Aarav', 'Aditya', 'Arjun', 'Arnav', 'Aryan']
@@ -141,4 +136,3 @@ AttentionRNN(
 2026-03-25 18:55:37,381 - INFO - Metrics [Vanilla RNN] -> Novelty: 94.00% | Diversity: 100.00%
 2026-03-25 18:55:37,381 - INFO - Metrics [BLSTM] -> Novelty: 78.00% | Diversity: 100.00%
 2026-03-25 18:55:37,381 - INFO - Metrics [Attention RNN] -> Novelty: 62.00% | Diversity: 100.00%
-2026-03-25 18:55:37,382 - INFO - Successfully produced highly structured latex template exactly mapping -> outputs/report.tex
