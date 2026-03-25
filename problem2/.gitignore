@@ -1,0 +1,5 @@
+__pycache__/
+*.tex
+outputs/report.tex
+.DS_Store
+generate_report.py
