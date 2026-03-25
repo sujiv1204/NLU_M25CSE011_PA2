@@ -24,7 +24,6 @@ It explores how different architectures effectively learn to generate culturally
     ├── generated_samples.txt   # Combined evaluation text output  
     ├── evaluation_metrics.png  # Bar charts assessing novelty vs diversity per model
     ├── length_distribution.png # Distribution density overlap (Real vs Generated sizes)
-    └── report.tex              # Comprehensive LaTeX Assignment Report
 ```
 
 ## Requirements & Installation

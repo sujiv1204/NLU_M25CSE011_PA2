@@ -7,9 +7,8 @@ This project implements Custom Word2Vec architectures (Skip-gram and CBOW) from 
 ## Directory Structure
 
 ```text
-/data/sujiv1/sujiv/NLU/PA2/problem1/
+.
 ├── README.md                # Project documentation and execution guide
-├── report.tex               # LaTeX assignment report
 ├── scraper.py               # Web scraping utility parsing HTML and fetching PDFs via BeautifulSoup/pypdf
 ├── preprocess.py            # Text normalization, stopword filtering, and vocabulary indexing
 ├── train.py                 # Core NumPy model builder for Custom Scratch Skip-gram and CBOW frameworks
