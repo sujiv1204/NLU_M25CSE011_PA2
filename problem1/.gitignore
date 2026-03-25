@@ -1,0 +1,4 @@
+*.ipynb
+pdfs/
+models_bkp/
+*.tex

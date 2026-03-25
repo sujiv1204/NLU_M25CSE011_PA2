@@ -1,0 +1,106 @@
+Starting Word2Vec Preprocessing and Training Pipeline
+Wednesday 25 March 2026 02:20:03 PM IST
+----------------------------------------
+Running Preprocessing...
+Starting Preprocessing
+
+Corpus Statistics:
+Number of documents: 460
+Total tokens: 698783
+Vocabulary size: 27873
+
+Top 20 words:
+  lectures: 10207
+  engineering: 6804
+  tech: 5487
+  course: 5288
+  learning: 4637
+  design: 4274
+  students: 3918
+  systems: 3706
+  department: 3346
+  data: 3315
+  student: 3193
+  xx: 3137
+  introduction: 3059
+  science: 2945
+  program: 2941
+  analysis: 2642
+  material: 2555
+  semester: 2492
+  applications: 2478
+  ph: 2363
+Saved processed corpus to data/corpus.txt
+Filtered vocabulary size (min_count=2): 19148
+Preprocessing completed and data saved.
+Running Evaluation (PCA, t-SNE, Heatmaps, stats)...
+
+Loading models for Evaluation
+
+Training Gensim models for baseline comparison:
+trained gensim skipgram and cbow models
+
+==================================================
+TASK 3: SEMANTIC ANALYSIS - NEAREST NEIGHBORS
+==================================================
+
+--- Scratch Skip-Gram Nearest Neighbors ---
+research   -> intimation (0.791), organisation (0.791), detected (0.786), recommend (0.785), anextensionof (0.784)
+student    -> fenner (0.553), rudoff (0.539), programasmentionedinsections (0.536), wafer (0.534), wooldridge (0.526)
+phd        -> commitments (0.552), bundle (0.545), huebsch (0.536), column (0.524), lamport (0.521)
+exam       -> permissible (0.750), allocation (0.742), hoursofdisplayofgradesafterapprovaloftheheadofthe (0.740), gradecorrection (0.733), onceapprovedcannot (0.730)
+
+--- Scratch CBOW Nearest Neighbors ---
+research   -> petitioning (0.986), visiting (0.984), general (0.984), amendments (0.983), makeup (0.982)
+student    -> programmes (0.983), aiming (0.981), arising (0.976), awarding (0.975), letters (0.975)
+phd        -> buildings (0.993), produce (0.988), tomography (0.982), emphasis (0.980), chem (0.979)
+exam       -> fresh (0.958), oriented (0.943), xqo (0.942), underway (0.940), rules (0.934)
+
+--- Gensim Skip-Gram Nearest Neighbors ---
+research   -> receive (0.591), mentor (0.571), ambesh (0.559), interest (0.557), excellence (0.552)
+student    -> astudent (0.689), successfully (0.682), receiving (0.680), allowed (0.678), stands (0.676)
+phd        -> mtech (0.853), dcs (0.782), msc (0.779), comm (0.779), btech (0.777)
+exam       -> quiz (0.891), workingdate (0.883), makeup (0.881), prorating (0.873), supplementary (0.861)
+
+--- Gensim CBOW Nearest Neighbors ---
+research   -> interest (0.890), drafts (0.849), likely (0.842), expertise (0.808), diverse (0.792)
+student    -> indicated (0.893), completion (0.876), respective (0.876), tochangetheregistrationtothepart (0.871), required (0.857)
+phd        -> mtech (0.971), btech (0.945), tech (0.937), visvesvaraya (0.932), dcs (0.923)
+exam       -> missed (0.938), cleared (0.927), appear (0.923), within (0.922), examination (0.920)
+
+==================================================
+TASK 3: SEMANTIC ANALYSIS - ANALOGY TESTS
+==================================================
+
+--- Analogy Testing for Scratch Skip-Gram ---
+ug : btech :: pg : ?                -> coordinates(0.573), missedminor(0.453), trustable(0.436)
+student : phd :: faculty : ?        -> derivatives(0.463), hvac(0.457), marketing(0.455)
+department : cse :: school : ?      -> algebra(0.400), laxmi(0.369), languages(0.363)
+
+--- Analogy Testing for Scratch CBOW ---
+ug : btech :: pg : ?                -> satisfies(0.964), full(0.945), officially(0.941)
+student : phd :: faculty : ?        -> screening(0.933), arrays(0.932), hit(0.929)
+department : cse :: school : ?      -> dk(0.897), pool(0.854), saini(0.852)
+
+--- Analogy Testing for Gensim Skip-Gram ---
+ug : btech :: pg : ?                -> mtech(0.797), coreprerequisite(0.795), enginering(0.795)
+student : phd :: faculty : ?        -> asst(0.604), dept(0.601), mtech(0.574)
+department : cse :: school : ?      -> stem(0.686), saide(0.676), sod(0.675)
+
+--- Analogy Testing for Gensim CBOW ---
+ug : btech :: pg : ?                -> mtech(0.933), cse(0.917), stackable(0.892)
+student : phd :: faculty : ?        -> hosting(0.813), priyanka(0.794), advisors(0.786)
+department : cse :: school : ?      -> liberal(0.842), mba(0.791), saide(0.788)
+
+==================================================
+TASK 4: VISUALIZATIONS GENERATION
+==================================================
+Visualizations saved to data/ directory successfully.
+
+ASSIGNMENT DELIVERABLES SUMMARY:
+P1: Size of corpus file -> 5.4754 MB
+P1: Top 10 frequent words -> lectures: 10207, engineering: 6804, tech: 5487, course: 5288, learning: 4637, design: 4274, students: 3918, systems: 3706, department: 3346, data: 3315
+----------------------------------------
+Pipeline execution finished successfully. Output detailed in experiment.log
+Check data/ directory for visualizations, corpus, and models.
+Wednesday 25 March 2026 02:20:35 PM IST
